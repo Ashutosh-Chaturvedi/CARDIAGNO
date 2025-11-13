@@ -1,0 +1,20 @@
+export const COLORS = {
+  // Heart rate zones
+  RESTING: '#51CF66',
+  LIGHT: '#FFB84D',
+  MODERATE: '#FF8E8E',
+  VIGOROUS: '#FF6B6B',
+  MAXIMUM: '#E85555',
+  
+  // Risk levels
+  LOW_RISK: '#51CF66',
+  MEDIUM_RISK: '#FFB84D',
+  HIGH_RISK: '#FF6B6B',
+  CRITICAL_RISK: '#E85555',
+  
+  // Chart colors
+  CHART_PRIMARY: '#FF6B6B',
+  CHART_SECONDARY: '#4ECDC4',
+  CHART_TERTIARY: '#FFB84D',
+  CHART_QUATERNARY: '#4DABF7',
+};

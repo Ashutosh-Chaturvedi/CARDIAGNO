@@ -1,0 +1,36 @@
+╔══════════════════════════════════════════════════════════════╗
+║           🚀 QUICK API SETUP - 2 MINUTES                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 STEP 1: Get Free API Key
+   → Visit: https://console.groq.com
+   → Sign up (no credit card needed)
+   → Create new API key
+   → Copy the key (starts with "gsk_")
+
+📍 STEP 2: Configure App
+   → Open file: src/config/localai.js
+   → Find line 12: apiKey: 'YOUR_GROQ_API_KEY_HERE'
+   → Replace with your key: apiKey: 'gsk_xxxxx...'
+   → Save file
+
+📍 STEP 3: Run App
+   → Terminal: npm start
+   → Test the Chat feature!
+
+╔══════════════════════════════════════════════════════════════╗
+║                    ✅ THAT'S IT!                             ║
+╚══════════════════════════════════════════════════════════════╝
+
+💡 FREE TIER LIMITS:
+   • 14,400 requests per day
+   • 600 requests per hour
+   • More than enough for personal use!
+
+📖 DETAILED GUIDE: See GROQ_API_SETUP.md
+
+⚠️  WITHOUT API KEY:
+   App works with demo/mock responses for testing
+
+🔄 ALTERNATIVE: OpenAI (Paid)
+   Change provider to 'openai' in src/config/localai.js

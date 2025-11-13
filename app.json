@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "CardiagnoAI",
+    "slug": "cardiagno-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6B6B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cardiagno.ai",
+      "infoPlist": {
+        "NSCameraUsageDescription": "CardiagnoAI needs camera access to scan medical reports and documents.",
+        "NSPhotoLibraryUsageDescription": "CardiagnoAI needs photo library access to analyze medical reports."
+      }
+    },
+    "android": {
+      "package": "com.cardiagno.ai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF6B6B"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "CardiagnoAI needs access to your photos to analyze medical reports.",
+          "cameraPermission": "CardiagnoAI needs camera access to scan medical documents."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b92c15f1-b25c-4eee-8cc5-6769f51dc378"
+      }
+    }
+  }
+}
