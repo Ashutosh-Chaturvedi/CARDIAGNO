@@ -181,7 +181,7 @@ export const HomeScreen = ({ navigation }) => {
         </Text>
         <TouchableOpacity style={styles.emergencyButton}>
           <Ionicons name="call" size={20} color={THEME.colors.textWhite} />
-          <Text style={styles.emergencyButtonText}>Call 101</Text>
+          <Text style={styles.emergencyButtonText}>Call 108</Text>
         </TouchableOpacity>
       </Card>
     </ScrollView>
